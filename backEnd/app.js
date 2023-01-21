@@ -11,6 +11,7 @@ app.get("/", (req, res) => {
 app.get("/orders/drinks", (req, res) => {
   return res.json({
     drinks,
+    count: 5,
   });
 });
 
